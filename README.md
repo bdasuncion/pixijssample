@@ -1,2 +1,2 @@
 # pixijssample
-Pixijs sample
+Pixijs sample sample
