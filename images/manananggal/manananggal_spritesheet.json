@@ -1,0 +1,64 @@
+{
+    "frames": {
+        "fly1.png":
+        {
+            "frame": {"x":0,"y":0,"w":64,"h":64},
+            "spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+            "sourceSize": {"w":320,"h":64},
+            "rotated": false,
+	        "trimmed": false,
+            "anchor": {"x":0.5,"y":0.5}
+        },
+        "fly2.png":
+        {
+            "frame": {"x":64,"y":0,"w":64,"h":64},
+            "spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+            "sourceSize": {"w":320,"h":64},
+            "rotated": false,
+	        "trimmed": false,
+            "anchor": {"x":0.5,"y":0.5}
+        },
+        "die1.png":
+        {
+            "frame": {"x":128,"y":0,"w":64,"h":64},
+            "spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+            "sourceSize": {"w":320,"h":64},
+            "rotated": false,
+	        "trimmed": false,
+            "anchor": {"x":0.5,"y":0.5}
+        },
+        "die2.png":
+        {
+            "frame": {"x":192,"y":0,"w":64,"h":64},
+            "spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+            "sourceSize": {"w":320,"h":64},
+            "rotated": false,
+	        "trimmed": false,
+            "anchor": {"x":0.5,"y":0.5}
+        },
+        "die3.png":
+        {
+            "frame": {"x":256,"y":0,"w":64,"h":64},
+            "spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+            "sourceSize": {"w":320,"h":64},
+            "rotated": false,
+	        "trimmed": false,
+            "anchor": {"x":0.5,"y":0.5}
+        }
+    },
+
+    "animations": {
+        "fly": ["fly1.png","fly2.png"],
+        "die": ["die1.png","die2.png","die3.png"]
+    },
+
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+	    "version": "1.1",
+        "image": "manananggal.png",
+        "format": "RGBA8888",
+        "size": {"w":128,"h":64},
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:d1a4cc9b7893ab1d757c3bb0cfe1e3c0:e5e74ebb6df01922d7508005b9016fec:bcaee068208677d82cf54b6d7150ded6$"
+    }
+}
